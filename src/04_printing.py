@@ -13,5 +13,9 @@ z = "I like turtles!"
 # x is 10, y is 2.25, z is "I like turtles!"
 
 # Use the 'format' string method to print the same thing
+sentence1 = 'x is {}, y is {}, z is {}'.format(x, y, z)
+print(sentence1)
 
 # Finally, print the same thing using an f-string
+sentence2 = f"x is {x}, y is {y}, z is {z}"
+print(sentence2) 
